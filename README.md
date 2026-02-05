@@ -1,1 +1,11 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/BCrizr4d)
+# SE4471 Lab 1 – Tic-Tac-Toe
+
+## Live Demo (GitHub Pages)
+https://alexandralheureuxece.github.io/lab-1-tmaddox23/
+
+## Run Locally
+1. Clone this repo
+2. Open `index.html` in a web browser (or use VS Code Live Server)
+
+## LLM Tools Used
+- ChatGPT (OpenAI) — used to generate and iteratively refine the HTML/CSS/JavaScript implementation and UI appearance customization.
