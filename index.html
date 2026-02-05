@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic-Tac-Toe</title>
+
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <main class="app">
+      <header class="top">
+        <div>
+          <h1 class="title">Tic-Tac-Toe</h1>
+          <p id="status" class="status" aria-live="polite">X’s turn</p>
+        </div>
+
+        <div class="topRight">
+          <button
+            id="themeToggleBtn"
+            class="btn btnSecondary"
+            type="button"
+            title="Toggle theme"
+            aria-pressed="false"
+          >
+            Light mode
+          </button>
+
+          <button id="restartBtn" class="btn" type="button" title="Restart game">
+            Restart
+          </button>
+        </div>
+      </header>
+
+      <!-- Appearance Customization Controls -->
+      <section class="customize" aria-label="Appearance customization">
+        <div class="field">
+          <label for="boardColorSelect" class="label">Board color</label>
+          <select id="boardColorSelect" class="select">
+            <option value="red">Red</option>
+            <option value="orange">Orange</option>
+            <option value="yellow">Yellow</option>
+            <option value="green">Green</option>
+            <option value="blue">Blue</option>
+            <option value="indigo">Indigo</option>
+            <option value="violet">Violet</option>
+          </select>
+        </div>
+
+        <div class="field">
+          <label for="markerColorSelect" class="label">Marker color</label>
+          <select id="markerColorSelect" class="select">
+            <option value="red">Red</option>
+            <option value="orange">Orange</option>
+            <option value="yellow">Yellow</option>
+            <option value="green">Green</option>
+            <option value="blue" selected>Blue</option>
+            <option value="indigo">Indigo</option>
+            <option value="violet">Violet</option>
+          </select>
+        </div>
+      </section>
+
+      <section class="boardWrap">
+        <section
+          id="board"
+          class="board"
+          role="grid"
+          aria-label="Tic-Tac-Toe board"
+        >
+          <!-- 9 buttons injected by JS -->
+        </section>
+      </section>
+
+      <footer class="hint">
+        Tip: Customize board + marker colors. Your choices are saved automatically.
+      </footer>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
